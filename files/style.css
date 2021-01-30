@@ -1,0 +1,148 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    color: black;
+}
+h1{
+    color: #363958;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 80px;
+}
+h2{
+    color: #363958;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 50px;
+}
+h3{
+    color: #FABE4C;
+    font-family: 'Roboto', sans-serif;
+    font-size: 40px;
+    font-weight: bolder;
+}
+h5{
+    color: #363958;
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+    font-weight: bolder;
+}
+.head-wrapper{
+    height: 760px;
+    background-color: #FFFBF0;
+    background-image: url("images/header-bg.png");
+    background-repeat: no-repeat;
+    background-position-x: 480px;
+    background-position-y: -97px;
+    background-size: 160px 170px;
+}
+.nav-img-edit{
+    width: 292px;
+}
+.navbar-light .navbar-toggler-icon{
+    background-image: url("images/toggle-icon.png");
+}
+.navbar-nav a{
+    margin-right: 40px;
+}
+.navbar-nav a:last-child{
+    margin-right: 0px;
+}
+.navbar-toggler{
+    border:none;
+}
+.navbar-toggler:focus{
+    box-shadow: none;
+}
+.people-shop{
+    height: 380px;
+    padding: 15px;
+    background-color: #F1F1F1;
+    border-radius: 20px;
+}
+.people-shop img{
+    height: 100%;
+    object-fit: contain;
+}
+.border-remove{
+    border:none;
+}
+.people-cloths{
+    border-radius: 20px;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.05);
+}
+.btn-edit{
+    padding: 20px 15px;
+    border: 1px solid #54d664;
+    border-radius: 10px;
+    background: linear-gradient(145deg, #76c27e, #66de73);
+    color: white;
+}
+.btn-edit img{
+    width: 15%;
+    margin-right: 5px;
+}
+button:hover{
+    background: linear-gradient(145deg,#35973e, #0f6e1a);
+}
+.checkout-area{
+    height: 600px;
+}
+.card-img{
+    width: 90%;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.05);
+}
+.card-side-img img{
+    width:90px;
+    object-fit: contain;
+}
+.card-title{
+    font-size: 24px;
+}
+.loc-btn{
+    background: linear-gradient(145deg, #76c27e, #66de73);
+}
+.loc-btn:hover{
+    background: linear-gradient(145deg,#35973e, #0f6e1a);
+}
+.footer{
+    text-align: center;
+    color: dimgray;
+}
+@media screen and (max-width: 600px){
+    .navbar-nav{
+        align-items: flex-end;
+    }
+    .navbar-nav a, .navbar-nav a:last-child{
+        margin-right: 15px;
+    }
+    .img-res{
+        width: 80%;
+        margin: 70px 50px;
+    }
+    .head-wrapper{
+        height: 1000px;
+        background-color: #FFFBF0;
+        background-image: none;
+    }
+    .card-img{
+        width: 100%;
+    }
+    .article{
+        display: block !important;
+
+    }
+    .card-side-img{
+        text-align: center;
+    }
+    .article .details-area{
+        padding-left: 0px !important;
+        text-align: center;
+        margin-top: 10px;
+    }
+    .checkout-area{
+        height: 1200px;
+    }
+    .text-edit{
+        text-align: center;
+    }
+}
